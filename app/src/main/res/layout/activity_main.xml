@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redblackabstract"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="vertical"
+            android:paddingRight="12dp">
+
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="194dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="170dp"
+                android:src="@drawable/cliniccropped" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/kanit_medium"
+                android:text="Welcome Back
+            DR Zumar,"
+                android:textColor="#e62020"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="DOCTOR NAME"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/edittext_border"
+                android:inputType="text"
+                android:id="@+id/docname"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Password"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/password"
+                android:background="@drawable/edittext_border"
+                android:inputType="textPassword"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/btn_login"
+                android:text="Log In"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:id="@+id/loginid"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

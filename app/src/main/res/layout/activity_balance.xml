@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/absedit"
+    android:orientation="vertical"
+    tools:context=".activity_balance">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/kanit_medium"
+        android:text="BALANCE DETAILS"
+        android:textColor="#e62020"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:orientation="vertical"
+        android:paddingRight="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_bold"
+                android:text="DATE"
+                android:id="@+id/date"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:inputType="text"
+                android:id="@+id/etxt_fromdate"
+                android:textSize="25dp"
+                android:background="@drawable/edittext_border"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_bold"
+                android:text="NAME"
+                android:id="@+id/balname"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="25dp"
+                android:background="@drawable/edittext_border"
+                android:id="@+id/balnameedit"
+                android:inputType="textCapCharacters"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_bold"
+                android:text="AGE"
+                android:id="@+id/agename"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="25dp"
+                android:background="@drawable/edittext_border"
+                android:id="@+id/ageedit"
+                android:inputType="text"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_bold"
+                android:text="BALANCE"
+                android:id="@+id/bal"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="25dp"
+                android:background="@drawable/edittext_border"
+                android:id="@+id/balanceedit"
+                android:inputType="text"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:text="ADD BALANCE"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:id="@+id/addbal"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:text="DELETE BY NAME"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:id="@+id/delbyname"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:text="VIEW BALANCE HISTORY"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:id="@+id/viewbal"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+    </LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_unani"
+    android:background="@drawable/absedit"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="vertical"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_medium"
+                android:text="UNANI MEDICINE STOCK"
+                android:textColor="#e62020"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/imagescoloured" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_bold"
+                android:text="NAME"
+                android:id="@+id/unaninamemedicine"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="25dp"
+                android:background="@drawable/edittext_border"
+                android:id="@+id/unaninameedit"
+                android:inputType="textCapCharacters"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/kanit_bold"
+                android:text="QTY"
+                android:id="@+id/unaniqtyname"
+                android:textColor="#e62020"
+                android:textSize="18sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="25dp"
+                android:background="@drawable/edittext_border"
+                android:id="@+id/unaniqtyedit"
+                android:inputType="text"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:text="ADD"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:id="@+id/unaniadd"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:text="VIEW"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:id="@+id/unaniview"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:text="UPDATE"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:id="@+id/unaniupdate"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_login"
+                android:text="DELETE BY NAME"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:id="@+id/unanidelete"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
